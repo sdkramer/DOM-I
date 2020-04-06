@@ -97,3 +97,25 @@ bText[2].querySelector('p').textContent = siteContent ['main-content']['vision-c
 
 
 /*****Contact******/
+const contactPs = document.querySelectorAll('.contact p')
+
+document.querySelector('.contact h4').textContent = siteContent.contact ['contact-h4']
+
+contactPs[0].textContent = siteContent.contact ['address']
+
+contactPs[1].textContent = siteContent.contact ['phone']
+
+contactPs[2].textContent = siteContent.contact ['email']
+
+/*****footer*****/
+
+document.querySelector('footer p').textContent = siteContent.footer.copyright
+
+/****add new content**/
+
+
+for (let i = 0; i < navAs.length; i++) {
+  navAs[i].style.color = 'green';
+}
+
+
