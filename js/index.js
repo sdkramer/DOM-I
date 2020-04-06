@@ -48,3 +48,12 @@ const ctaImg = document.getElementById('cta-img');
 ctaImg.setAttribute('src', siteContent.cta['img-src'])
 
 
+const navAs = document.querySelectorAll('nav a');
+console.log(navAs[0]);
+
+navAs[0].textContent = siteContent ['nav']['nav-item-1'];
+navAs[1].textContent = siteContent ['nav']['nav-item-2'];
+navAs[2].textContent = siteContent ['nav']['nav-item-3'];
+navAs[3].textContent = siteContent ['nav']['nav-item-4'];
+navAs[4].textContent = siteContent ['nav']['nav-item-5'];
+navAs[5].textContent = siteContent ['nav']['nav-item-6'];
