@@ -118,4 +118,17 @@ for (let i = 0; i < navAs.length; i++) {
   navAs[i].style.color = 'green';
 }
 
+const nav = document.querySelector('nav');
 
+const navLast = document.querySelector()
+
+const newLink = document.createElement('a');
+newLink.href = '#Home';
+newLink.textContent = 'Home';
+
+const newLink2 = document.createElement('a');
+newLink2.href = '#Links';
+newLink2.textContent = 'Links';
+
+nav.appendChild(newLink2);
+navAs[0].prependChild(newLink);
