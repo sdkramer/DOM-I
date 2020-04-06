@@ -49,7 +49,7 @@ ctaImg.setAttribute('src', siteContent.cta['img-src'])
 
 
 const navAs = document.querySelectorAll('nav a');
-console.log(navAs[0]);
+// console.log(navAs[0]);
 
 navAs[0].textContent = siteContent ['nav']['nav-item-1'];
 navAs[1].textContent = siteContent ['nav']['nav-item-2'];
@@ -57,3 +57,24 @@ navAs[2].textContent = siteContent ['nav']['nav-item-3'];
 navAs[3].textContent = siteContent ['nav']['nav-item-4'];
 navAs[4].textContent = siteContent ['nav']['nav-item-5'];
 navAs[5].textContent = siteContent ['nav']['nav-item-6'];
+
+const ctaText = document.querySelector('h1');
+ctaText.textContent = siteContent['cta'] ['h1'];
+
+document.querySelector('button').textContent = 
+siteContent ['cta']['button']
+
+
+/*******main content****/
+
+document.querySelector('.text-content h4').textContent = siteContent ['main-content']['features-h4']
+
+document.querySelector('.text-content p').textContent = siteContent ['main-content']['features-content']
+
+const topText = document.querySelectorAll('.top-content .text-content');
+console.log(topText[1]);
+ 
+// topText[1][h4].textContent = siteContent ['main-content']['about-h4'];
+topText[1].querySelector('h4').textContent = siteContent ['main-content']['about-h4']
+
+topText[1].querySelector('p').textContent = siteContent ['main-content']['about-content']
