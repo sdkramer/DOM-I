@@ -41,3 +41,10 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
+const middleImg = document.getElementById('middle-img');
+middleImg.setAttribute('src', siteContent ['main-content']['middle-img-src'])
+
+const ctaImg = document.getElementById('cta-img');
+ctaImg.setAttribute('src', siteContent.cta['img-src'])
+
+
