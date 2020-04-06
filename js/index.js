@@ -78,3 +78,22 @@ console.log(topText[1]);
 topText[1].querySelector('h4').textContent = siteContent ['main-content']['about-h4']
 
 topText[1].querySelector('p').textContent = siteContent ['main-content']['about-content']
+
+/*****bottom content****/
+
+const bText = document.querySelectorAll('.bottom-content .text-content');
+
+bText[0].querySelector('h4').textContent = siteContent ['main-content']['services-h4']
+
+bText[1].querySelector('h4').textContent = siteContent ['main-content']['product-h4']
+
+bText[2].querySelector('h4').textContent = siteContent ['main-content']['vision-h4']
+
+bText[0].querySelector('p').textContent = siteContent ['main-content']['services-content']
+
+bText[1].querySelector('p').textContent = siteContent ['main-content']['product-content']
+
+bText[2].querySelector('p').textContent = siteContent ['main-content']['vision-content']
+
+
+/*****Contact******/
