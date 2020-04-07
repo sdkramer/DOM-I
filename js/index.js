@@ -61,6 +61,8 @@ navAs[5].textContent = siteContent ['nav']['nav-item-6'];
 const ctaText = document.querySelector('h1');
 ctaText.textContent = siteContent['cta'] ['h1'];
 
+ctaText.style.fontFamily = 'serif'
+
 document.querySelector('button').textContent = 
 siteContent ['cta']['button']
 
@@ -120,7 +122,7 @@ for (let i = 0; i < navAs.length; i++) {
 
 const nav = document.querySelector('nav');
 
-const navLast = document.querySelector()
+// const navLast = document.querySelector()
 
 const newLink = document.createElement('a');
 newLink.href = '#Home';
@@ -131,4 +133,6 @@ newLink2.href = '#Links';
 newLink2.textContent = 'Links';
 
 nav.appendChild(newLink2);
-navAs[0].prependChild(newLink);
+nav.prepend(newLink)
+
+console.log(navAs)
