@@ -127,10 +127,12 @@ const nav = document.querySelector('nav');
 const newLink = document.createElement('a');
 newLink.href = '#Home';
 newLink.textContent = 'Home';
+newLink.style.color = 'blue';
 
 const newLink2 = document.createElement('a');
 newLink2.href = '#Links';
 newLink2.textContent = 'Links';
+newLink2.style.color = 'aqua'
 
 nav.appendChild(newLink2);
 nav.prepend(newLink)
